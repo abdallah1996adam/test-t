@@ -11,8 +11,8 @@ server.use(express.static("./src/assets"));
 
 server.use(router);
 
-server.listen(process.env.SERVER_PORT, () => {
-  console.log(`server is running on port ${process.env.SERVER_PORT}`);
+server.listen(8000, () => {
+  console.log(`server is running on port 8000`);
 });
 
 server.use((req, res) => {

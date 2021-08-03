@@ -4,7 +4,6 @@ import { bookingService } from "../services/";
 import { Link } from "react-router-dom";
 import moment from "moment";
 
-import DeleteDate from "./DeleteDate";
 import UpdateBooking from "./UpdateBooking";
 
 class BookingList extends React.Component {

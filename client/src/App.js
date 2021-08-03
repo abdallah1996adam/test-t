@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import DeleteDate from "./components/DeleteDate";
 import UpdateBooking from "./components/UpdateBooking";
 import Admin from "./pages/Admin";
 import Booking from "./pages/Booking";
@@ -13,7 +12,6 @@ const App = () => {
         <Route path="/admin" exact component={Admin} />
         <Route path="/profil" exact component={Profil} />
         <Route path="/booking" exact component={Booking} />
-        <Route path="/admin" exact component={DeleteDate} />
 
         <Route path="/modifier/:id/:userid" exact component={UpdateBooking} />
       </Switch>
